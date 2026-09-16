@@ -1,4 +1,4 @@
-// Pattern 2: Hollow Square Pattern
+// Hollow Square Pattern
 
 // * * * * *
 // *       *

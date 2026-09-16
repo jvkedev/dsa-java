@@ -1,4 +1,4 @@
-// Pattern 3: Solid Right-Angle Triangle Pattern
+// Solid Right-Angle Triangle Pattern
 
 // *
 // * *

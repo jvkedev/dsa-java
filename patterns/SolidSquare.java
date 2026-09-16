@@ -1,4 +1,4 @@
-// Pattern 1: Solid Square Pattern
+// Solid Square Pattern
 
 // * * * *
 // * * * *

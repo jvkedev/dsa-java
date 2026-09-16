@@ -1,4 +1,4 @@
-// Pattern 5: Solid Pyramid Pattern
+// Solid Pyramid Pattern
 
 //       *
 //     * * *

@@ -1,19 +1,18 @@
-// Inverted Right-Angle Triangle Pattern
+// Solid Rectangle Pattern
 
 // * * * * *
-// * * * *
-// * * *
-// * *
-// *
+// * * * * *
+// * * * * *
 
-public class InvertedRightAngleTriangle {
+public class SolidRectangle {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 3;
 
         for (int row = 1; row <= n; row++) {
-            for (int col = 1; col <= (n + 1) - row; col++) {
+            for (int col = 1; col <= 5; col++) {
                 System.out.print("* ");
             }
+
             System.out.println();
         }
     }
