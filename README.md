@@ -1,89 +1,75 @@
-# dsa-java
+# DSA Solutions
 
-A Java based DSA learning repository where I practice problem solving from pattern problems and gradually progress toward core data structures and algorithms.
+A Java-based practice repository focused on learning data structures and algorithms through pattern problems.
 
-## Current Focus
-
-I am starting my DSA journey with **Pattern Problems**.
-
-The purpose of starting with patterns is to build a strong understanding of loops, nested loops, conditions, rows, columns, spaces, and logical problem solving.
+This project is designed to improve core programming fundamentals such as loops, nested loops, spacing logic, and problem decomposition using beginner-friendly pattern exercises.
 
 ## Repository Structure
 
 ```text
-dsa-java/
-│
+DSA-Solutions/
 ├── README.md
-│
-└── Patterns/
-    ├── 01-Pattern.java
-    ├── 02-Pattern.java
-    ├── 03-Pattern.java
-    ├── 04-Pattern.java
-    └── ...
+├── patterns/
+│   ├── Butterfly.java
+│   ├── HollowDiamond.java
+│   ├── HollowPyramid.java
+│   ├── HollowRectangle.java
+│   ├── HollowRightAngleTriangle.java
+│   ├── HollowSquare.java
+│   ├── InvertedRightAngleTriangle.java
+│   ├── InvertedSolidPyramid.java
+│   ├── SolidDiamond.java
+│   ├── SolidPyramid.java
+│   ├── SolidRectangle.java
+│   ├── SolidRightAngleTriangle.java
+│   └── SolidSquare.java
+└── ...
 ```
 
-Each problem is kept in a separate Java file so that it is easy to understand, practice, and revise individual problems.
+## Current Pattern Collection
 
-## Pattern Problems
+The repository currently includes the following Java pattern programs:
 
-My initial goal is to solve **20 pattern problems**.
+- Butterfly
+- Hollow Diamond
+- Hollow Pyramid
+- Hollow Rectangle
+- Hollow Right Angle Triangle
+- Hollow Square
+- Inverted Right Angle Triangle
+- Inverted Solid Pyramid
+- Solid Diamond
+- Solid Pyramid
+- Solid Rectangle
+- Solid Right Angle Triangle
+- Solid Square
 
-| #  | Problem    | Status |
-| -- | ---------- | ------ |
-| 01 | Pattern 01 | ⬜      |
-| 02 | Pattern 02 | ⬜      |
-| 03 | Pattern 03 | ⬜      |
-| 04 | Pattern 04 | ⬜      |
-| 05 | Pattern 05 | ⬜      |
-| 06 | Pattern 06 | ⬜      |
-| 07 | Pattern 07 | ⬜      |
-| 08 | Pattern 08 | ⬜      |
-| 09 | Pattern 09 | ⬜      |
-| 10 | Pattern 10 | ⬜      |
-| 11 | Pattern 11 | ⬜      |
-| 12 | Pattern 12 | ⬜      |
-| 13 | Pattern 13 | ⬜      |
-| 14 | Pattern 14 | ⬜      |
-| 15 | Pattern 15 | ⬜      |
-| 16 | Pattern 16 | ⬜      |
-| 17 | Pattern 17 | ⬜      |
-| 18 | Pattern 18 | ⬜      |
-| 19 | Pattern 19 | ⬜      |
-| 20 | Pattern 20 | ⬜      |
+## Learning Goals
 
-## What I Am Practicing
+These exercises help practice:
 
-Through these problems, I am practicing:
+- loops and nested loops
+- conditional logic
+- row and column structure
+- spaces and formatting
+- pattern recognition
+- problem-solving mindset
 
-```text
-Loops
-Nested Loops
-for Loop
-while Loop
-Conditions
-Rows and Columns
-Spaces
-Numbers
-Characters
-Pattern Logic
-Problem Solving
+## How to Run
+
+From the project root, compile and run any pattern file:
+
+```bash
+javac patterns/Butterfly.java
+java -cp patterns Butterfly
 ```
 
-## Goal
-
-The goal of this repository is to build my DSA fundamentals through consistent practice.
-
-I will start with pattern problems and gradually add new DSA topics as I progress.
-
-## Language
-
-**Java**
+You can replace `Butterfly` with any other class name in the `patterns` folder.
 
 ## Progress
 
-**Current Topic:** Pattern Problems
+This repository is currently focused on pattern-based Java practice and is intended to grow into broader DSA learning over time.
 
-**Target:** 30 Problems
+## Language
 
-**Status:** In Progress
+Java
