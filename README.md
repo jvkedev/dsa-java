@@ -1,8 +1,8 @@
 # DSA Solutions
 
-A Java-based practice repository focused on learning data structures and algorithms through pattern problems.
+A Java practice repository focused on pattern-based problem solving and core programming fundamentals.
 
-This project is designed to improve core programming fundamentals such as loops, nested loops, spacing logic, and problem decomposition using beginner-friendly pattern exercises.
+This project helps build confidence with loops, nested iterations, conditional logic, spacing, and structured output while solving visual pattern exercises.
 
 ## Repository Structure
 
@@ -10,65 +10,76 @@ This project is designed to improve core programming fundamentals such as loops,
 DSA-Solutions/
 ├── README.md
 ├── patterns/
+│   ├── AlphabetTriangle.java
 │   ├── Butterfly.java
+│   ├── FloydTriangle.java
 │   ├── HollowDiamond.java
 │   ├── HollowPyramid.java
 │   ├── HollowRectangle.java
 │   ├── HollowRightAngleTriangle.java
 │   ├── HollowSquare.java
+│   ├── HourGlass.java
+│   ├── InvertedAlphabetTriangle.java
 │   ├── InvertedRightAngleTriangle.java
 │   ├── InvertedSolidPyramid.java
+│   ├── NumberPyramid.java
+│   ├── NumberTriangle.java
+│   ├── PascalTriangle.java
+│   ├── ReverseAlphabetRightAngleTriangle.java
+│   ├── Rhombus.java
 │   ├── SolidDiamond.java
 │   ├── SolidPyramid.java
 │   ├── SolidRectangle.java
 │   ├── SolidRightAngleTriangle.java
-│   └── SolidSquare.java
-└── ...
+│   ├── SolidSquare.java
+│   ├── SymmetricAlphabetPyramidTriangle.java
+│   └── ZigZag.java
+└── .gitignore
 ```
 
-## Current Pattern Collection
+## Pattern Collection
 
-The repository currently includes the following Java pattern programs:
+The repository includes a wide range of Java pattern programs such as:
 
-- Butterfly
-- Hollow Diamond
-- Hollow Pyramid
-- Hollow Rectangle
-- Hollow Right Angle Triangle
-- Hollow Square
-- Inverted Right Angle Triangle
-- Inverted Solid Pyramid
-- Solid Diamond
-- Solid Pyramid
-- Solid Rectangle
-- Solid Right Angle Triangle
-- Solid Square
+- Alphabet patterns: `AlphabetTriangle`, `InvertedAlphabetTriangle`, `ReverseAlphabetRightAngleTriangle`, `SymmetricAlphabetPyramidTriangle`
+- Number patterns: `FloydTriangle`, `NumberPyramid`, `NumberTriangle`, `PascalTriangle`
+- Solid shapes: `SolidPyramid`, `SolidRectangle`, `SolidRightAngleTriangle`, `SolidSquare`, `SolidDiamond`
+- Hollow shapes: `HollowPyramid`, `HollowRectangle`, `HollowRightAngleTriangle`, `HollowSquare`, `HollowDiamond`
+- Special patterns: `Butterfly`, `HourGlass`, `Rhombus`, `ZigZag`, `InvertedSolidPyramid`
 
-## Learning Goals
+## Learning Focus
 
 These exercises help practice:
 
-- loops and nested loops
-- conditional logic
-- row and column structure
-- spaces and formatting
-- pattern recognition
-- problem-solving mindset
+- nested loops
+- row and column logic
+- spacing and alignment
+- conditional branching inside loops
+- pattern decomposition and step-by-step reasoning
+- Java syntax and console output formatting
 
 ## How to Run
 
-From the project root, compile and run any pattern file:
+From the project root, compile and run any Java file:
 
 ```bash
-javac patterns/Butterfly.java
-java -cp patterns Butterfly
+javac patterns/AlphabetTriangle.java
+java -cp patterns AlphabetTriangle
 ```
 
-You can replace `Butterfly` with any other class name in the `patterns` folder.
+To run a different pattern, replace `AlphabetTriangle` with the class name from the `patterns` folder.
 
-## Progress
+You can also compile all files in the folder with:
 
-This repository is currently focused on pattern-based Java practice and is intended to grow into broader DSA learning over time.
+```bash
+for file in patterns/*.java; do
+  javac "$file"
+done
+```
+
+## Purpose
+
+This repository is currently focused on pattern-based Java practice and is intended to support beginner-to-intermediate understanding of loops, logic building, and structured problem solving in DSA.
 
 ## Language
 
