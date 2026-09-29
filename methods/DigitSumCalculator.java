@@ -1,0 +1,22 @@
+// Write a static method named sumOfDigits that takes an integer n and returns the sum of its individual digits.
+
+class DigitSumCalculator {
+
+    public static int sumOfDigits(int n) {
+        n = Math.abs(n);
+        int sum = 0;
+
+        while (n > 0) {
+            int value = n % 10;
+            sum += value;
+
+            n = n / 10;
+        }
+
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sumOfDigits(1234));
+    }
+}
