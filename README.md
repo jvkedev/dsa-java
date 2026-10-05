@@ -1,14 +1,22 @@
-# DSA Solutions
+# DSA Java Practice
 
-A Java practice repository focused on pattern-based problem solving and core programming fundamentals.
+A Java repository for practicing core Data Structures and Algorithms concepts along with pattern-based problem solving.
 
-This project helps build confidence with loops, nested iterations, conditional logic, spacing, and structured output while solving visual pattern exercises.
+This project is designed to help build confidence in Java fundamentals, loops, conditional logic, math operations, and structured thinking through small problem-solving exercises.
 
 ## Repository Structure
 
 ```text
-DSA-Solutions/
+DSA-Java/
 ├── README.md
+├── methods/
+│   ├── CountFactors.java
+│   ├── DigitSumCalculator.java
+│   ├── EvenOrOddChecker.java
+│   ├── GCDCalculator.java
+│   ├── PowerFunction.java
+│   ├── PrimeChecker.java
+│   └── ReverseNumber.java
 ├── patterns/
 │   ├── AlphabetTriangle.java
 │   ├── Butterfly.java
@@ -37,49 +45,68 @@ DSA-Solutions/
 └── .gitignore
 ```
 
-## Pattern Collection
+## Included Topics
 
-The repository includes a wide range of Java pattern programs such as:
+### Methods
 
-- Alphabet patterns: `AlphabetTriangle`, `InvertedAlphabetTriangle`, `ReverseAlphabetRightAngleTriangle`, `SymmetricAlphabetPyramidTriangle`
-- Number patterns: `FloydTriangle`, `NumberPyramid`, `NumberTriangle`, `PascalTriangle`
-- Solid shapes: `SolidPyramid`, `SolidRectangle`, `SolidRightAngleTriangle`, `SolidSquare`, `SolidDiamond`
-- Hollow shapes: `HollowPyramid`, `HollowRectangle`, `HollowRightAngleTriangle`, `HollowSquare`, `HollowDiamond`
-- Special patterns: `Butterfly`, `HourGlass`, `Rhombus`, `ZigZag`, `InvertedSolidPyramid`
+The `methods` folder contains utilities and algorithmic exercises such as:
+
+- `PrimeChecker.java`
+- `GCDCalculator.java`
+- `ReverseNumber.java`
+- `CountFactors.java`
+- `EvenOrOddChecker.java`
+- `DigitSumCalculator.java`
+- `PowerFunction.java`
+
+These programs focus on logic building, arithmetic, loops, conditionals, and beginner-friendly algorithmic thinking.
+
+### Patterns
+
+The `patterns` folder contains visual Java pattern programs such as:
+
+- Alphabet patterns: `AlphabetTriangle`, `InvertedAlphabetTriangle`, `ReverseAlphabetRightAngleTriangle`
+- Number patterns: `FloydTriangle`, `NumberTriangle`, `PascalTriangle`
+- Solid shapes: `SolidRectangle`, `SolidSquare`, `SolidPyramid`, `SolidDiamond`
+- Hollow shapes: `HollowRectangle`, `HollowSquare`, `HollowPyramid`, `HollowDiamond`
+- Special patterns: `Butterfly`, `HourGlass`, `Rhombus`, `ZigZag`
 
 ## Learning Focus
 
-These exercises help practice:
+This repository helps practice:
 
-- nested loops
-- row and column logic
-- spacing and alignment
-- conditional branching inside loops
-- pattern decomposition and step-by-step reasoning
-- Java syntax and console output formatting
+- Java syntax and class structure
+- loops and nested loops
+- arithmetic logic and mathematical operations
+- conditionals and branching
+- pattern decomposition
+- problem-solving through small, focused exercises
 
 ## How to Run
 
-From the project root, compile and run any Java file:
+From the project root, compile and run a program:
 
 ```bash
-javac patterns/AlphabetTriangle.java
-java -cp patterns AlphabetTriangle
+javac methods/PrimeChecker.java
+java -cp methods PrimeChecker
 ```
 
-To run a different pattern, replace `AlphabetTriangle` with the class name from the `patterns` folder.
-
-You can also compile all files in the folder with:
+Example for a pattern:
 
 ```bash
-for file in patterns/*.java; do
-  javac "$file"
-done
+javac patterns/SolidRectangle.java
+java -cp patterns SolidRectangle
+```
+
+To compile multiple Java files at once:
+
+```bash
+find methods patterns -name "*.java" -print0 | xargs -0 javac
 ```
 
 ## Purpose
 
-This repository is currently focused on pattern-based Java practice and is intended to support beginner-to-intermediate understanding of loops, logic building, and structured problem solving in DSA.
+This repository is intended for Java practice and beginner-to-intermediate DSA learning, with a mix of numerical logic problems and visual pattern exercises.
 
 ## Language
 
