@@ -1,5 +1,8 @@
 package arrays;
 
+// Given an integer array arr of size n, return true if the array is sorted
+// in non-decreasing order, otherwise return false.
+
 public class CheckSortedArray {
     public static boolean isSorted(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
